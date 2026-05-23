@@ -10,7 +10,7 @@ const app: Application = express();
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("hello world");
+  res.send("devpulse server is running");
 });
 
 // routes
