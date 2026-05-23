@@ -4,7 +4,7 @@ A collaborative platform for software teams to report bugs, suggest features, an
 
 Live URL
 
-Backend Live Link: https://your-live-api-link.com
+Backend Live Link: https://devpulse-backend-six.vercel.app/
 
 Features
 User Registration
@@ -31,7 +31,7 @@ pg
 Project Setup
 
 1. Clone the repository
-   git clone https://github.com/your-username/devpulse-backend.git
+   git clone https://github.com/kawsaralidev/devpulse-backend.git
 2. Move into the project folder
    cd devpulse-backend
 3. Install dependencies
@@ -41,8 +41,9 @@ Project Setup
 Create a .env file in the root directory and add:
 
 PORT=5000
-DATABASE_URL=your_database_url
-JWT_SECRET=your_secret_key 5. Run the development server
+DATABASE_URL
+JWT_SECRET
+
 npm run dev
 API Endpoints
 Authentication
@@ -61,6 +62,7 @@ Update Issue
 PATCH /api/issues/:id
 Delete Issue
 DELETE /api/issues/:id
+
 Database Schema Summary
 Users Table
 Field Type
